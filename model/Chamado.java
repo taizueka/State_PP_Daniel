@@ -1,3 +1,5 @@
+
+
 public class Chamado {
 
     private int codigo;
@@ -12,6 +14,9 @@ public class Chamado {
         this.estadoAtual = new EstadoAberto();
 
         System.out.println("Chamado criado no estado ABERTO.");
+    }
+
+    public Chamado() {
     }
 
     public void iniciarAtendimento() {
